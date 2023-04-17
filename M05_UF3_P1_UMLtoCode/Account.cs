@@ -19,9 +19,9 @@ namespace M05_UF3_P1_UMLtoCode
     public class Investing : Account
     {
         public float Interest;
-        public string ApplyInterest()
+        public void ApplyInterest()
         {
-            return "";
+
         }
     }
 
@@ -29,9 +29,9 @@ namespace M05_UF3_P1_UMLtoCode
     {
         private float ProtectedAmount;
 
-        public string LiberateSavings()
+        public void LiberateSavings()
         {
-            return "";
+            
         }
     }
 }
